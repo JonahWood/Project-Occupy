@@ -1,0 +1,16 @@
+
+  {
+    "name": "project-occupy",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd Project-Occupy.client && npm i",
+      "setup:server": "cd Project-Occupy && npm i",
+      "start": "node Project-Occupy/index.js"
+    },
+    "engines": {
+      "node": "^18.12.1"
+    }
+  }
+  
